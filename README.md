@@ -25,6 +25,6 @@ This wireframe will contain the design project for the Elephant Bookstore compan
 1. Project Website structure will be built using HTML5.
 2. Project Website layout and styling will be built with CSS (e.g. Flexbox and CSS Grid.)
 3. Project Website user interactive features will be using JavaScript.
-5. The project will be hosted using GitHub Pages.
-6. No external APIs will be required at this stage.
-7.All website versions will be maintained and controlled via Github.
+4. The project will be hosted using GitHub Pages.
+5. No external APIs will be required at this stage.
+6.All website versions will be maintained and controlled via Github.
