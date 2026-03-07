@@ -45,6 +45,8 @@
     </ul>
 </nav>
 
+<div class="content-layout">
+
 <!-- ISSUE 3: SIDEBAR -->
 <aside class="sidebar">
     <h2>Sort & Filter</h2>
@@ -81,6 +83,47 @@
 
     <button id="applyFilters">Apply Filters</button>
 </aside>
+
+<!-- ISSUE 4: MAIN BOOK DISPLAY -->
+<main class="main-content" id="recommended">
+    <section class="recommended-section">
+        <h2>Recommended Books</h2>
+        <p class="section-description">
+            New books and recommendations based on customer interest.
+        </p>
+
+        <div class="book-grid">
+            <article class="book-card" data-category="fiction" data-price="14.99" data-shipping="free">
+                <div class="book-placeholder">Book Cover</div>
+                <h3>The Midnight Train-Ride</h3>
+                <p>$14.99</p>
+                <button>Add to Cart</button>
+            </article>
+
+            <article class="book-card" data-category="fantasy" data-price="18.99" data-shipping="standard">
+                <div class="book-placeholder">Book Cover</div>
+                <h3>The Song of the Wind</h3>
+                <p>$18.99</p>
+                <button>Add to Cart</button>
+            </article>
+
+            <article class="book-card" data-category="nonfiction" data-price="9.99" data-shipping="free">
+                <div class="book-placeholder">Book Cover</div>
+                <h3>Atomic Habituals</h3>
+                <p>$9.99</p>
+                <button>Add to Cart</button>
+            </article>
+
+            <article class="book-card" data-category="mystery" data-price="12.99" data-shipping="standard">
+                <div class="book-placeholder">Book Cover</div>
+                <h3>The Silent Doctor</h3>
+                <p>$12.99</p>
+                <button>Add to Cart</button>
+            </article>
+        </div>
+    </section>
+</main>
+</div>
 
 <!-- ISSUE 6: FOOTER -->
 <footer id="footer">
