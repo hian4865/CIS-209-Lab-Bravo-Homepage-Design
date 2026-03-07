@@ -64,3 +64,28 @@
     font-size: 14px;
     line-height: 1.5;
 }
+
+/* ISSUE 2: NAVBAR */
+.navbar {
+    background-color: #dcdcdc;
+    border-bottom: 3px solid #000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 18px 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
