@@ -1,0 +1,66 @@
+/* ISSUE 1: HEADER */
+
+.site-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+
+    min-height: 240px;
+    padding: 25px;
+
+    background-image: url("../images/blueBookBanner.png");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+/* dark overlay for readability */
+
+.site-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,40,.55);
+}
+
+.site-header > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* logo */
+
+.header-logo img {
+    max-width: 200px;
+    width: 100%;
+}
+
+/* center text */
+
+.header-title {
+    text-align: center;
+}
+
+/* intro */
+
+.header-intro {
+    text-align: center;
+    padding: 10px;
+}
+.banner-overlay {
+    background-color: rgba(0, 22, 60, 0.55);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.header-intro {
+    text-align: center;
+    padding: 10px;
+    max-width: 420px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.5;
+}
