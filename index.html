@@ -45,6 +45,43 @@
     </ul>
 </nav>
 
+<!-- ISSUE 3: SIDEBAR -->
+<aside class="sidebar">
+    <h2>Sort & Filter</h2>
+
+    <div class="filter-group">
+        <label for="category">Category</label>
+        <select id="category">
+            <option value="all">All Categories</option>
+            <option value="fiction">Fiction</option>
+            <option value="nonfiction">Non-Fiction</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="mystery">Mystery</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <label for="price">Price</label>
+        <select id="price">
+            <option value="all">All Prices</option>
+            <option value="under10">Under $10</option>
+            <option value="10to20">$10 to $20</option>
+            <option value="over20">Over $20</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <label for="shipping">Shipping Cost</label>
+        <select id="shipping">
+            <option value="all">All Shipping</option>
+            <option value="free">Free Shipping</option>
+            <option value="standard">Standard Shipping</option>
+        </select>
+    </div>
+
+    <button id="applyFilters">Apply Filters</button>
+</aside>
+
 <!-- ISSUE 6: FOOTER -->
 <footer id="footer">
     <p>Elephant Bookstore</p>
