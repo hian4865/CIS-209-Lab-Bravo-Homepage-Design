@@ -89,3 +89,11 @@
 .nav-links a:hover {
     text-decoration: underline;
 }
+
+/* ISSUE 6: FOOTER */
+footer {
+    border-top: 3px solid #000;
+    background-color: #dcdcdc;
+    text-align: center;
+    padding: 25px 10px;
+}
